@@ -3,11 +3,13 @@
 <suite name="Failed suite [Suite1]" parallel="none">
   <test name="Test1(failed)" parallel="none">
     <classes>
-      <class name="demo.TestNGParametersDemo">
+      <class name="publixwebsiteautomation.ShopOnline">
         <methods>
-          <include name="test"/>
+          <include name="loginpage"/>
+          <include name="PublixSearch"/>
+          <include name="Closebrowser"/>
         </methods>
-      </class> <!-- demo.TestNGParametersDemo -->
+      </class> <!-- publixwebsiteautomation.ShopOnline -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite1] -->
